@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  spark:
+    image: spark:python3
+    volumes:
+      - .:/project
+    command: /opt/spark/bin/pyspark
