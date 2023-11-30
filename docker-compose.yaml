@@ -1,8 +1,11 @@
 version: '2'
 
+name: bdd_p2_spark
 services:
-  spark:
-    image: spark:python3
+  pyspark-notebook:
+    ports:
+      - 8888:8888
     volumes:
-      - .:/project
-    command: /opt/spark/bin/pyspark
+      - $PWD:/home/jovyan/work
+    container_name: spark
+    image: jupyter/pyspark-notebook
