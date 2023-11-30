@@ -2,7 +2,6 @@
 
 This is a project that utilises a virtual environment in docker. Using jupyter notebooks and spark.
 
-- ./start.sh
-- Use the link in the logs of the container ( docker container logs spark )
-- Go to the link at the bottom of the logs with the token and link.
+- docker-compose up
+- Use the link in the logs of the container (127.0.0.1:*)
 - Go inside work/exercises.ipynb, and you will see the notebook!
