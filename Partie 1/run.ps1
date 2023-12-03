@@ -2,8 +2,11 @@
 
 cd tsv
 curl -o basics.gz https://datasets.imdbws.com/title.basics.tsv.gz
-set /p choice= "Please extract title.basics.tsv.gz then write 'OK'" 
 cd ..
+
+echo ''
+echo " PLEASE EXTRACT data.tsv THEN COMMENT LINE 4"
+echo ''
 
 echo ''
 echo "########## Partie 1 - Question 1 ##########"
